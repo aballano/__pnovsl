@@ -1,0 +1,23 @@
+
+Approximately it took me a bit more of 2 working days to finish the challenge, taking into account that I had to
+work on it in small several occasions due to my schedule.
+
+Some notes about the final result, on one side there is room for improvements:
+
+* In general I dedicated the minimal time to the UI as I wanted to focus on the business logic and tests:
+    * There's no handle for loading, empty nor error states in the views.
+    * Ui could be improved a lot with animations, better styling, etc.
+    * Tests are not there as there's a minimum amount of states, nonetheless some espresso could be written to
+    test view states by mocking the presenter.
+* There are some comments included in the code to express possible improvements and explanations on the
+implementation.
+
+On the other side, some decisions made:
+
+* I wanted to mix some MVP(ish) architecture with some functional goodies, including Rx chains. It would
+be interesting to discuss the pros and cons of the approach or how could it scale in a larger app.
+* I decided not to go the Dagger-Retrofit way as given the size of the project it would be easy to create
+wrappers around the specifics and replace with any other lib if the project necessities change.
+
+
+--Alberto Ballano

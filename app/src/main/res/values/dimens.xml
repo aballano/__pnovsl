@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Specific dimens -->
+    <dimen name="half_unit">4dp</dimen>
+    <dimen name="one_grid">8dp</dimen>
+    <dimen name="one_and_half_grid">12dp</dimen>
+    <dimen name="two_grids">16dp</dimen>
+    <dimen name="three_grids">24dp</dimen>
+    <dimen name="four_grids">32dp</dimen>
+    <dimen name="five_grids">40dp</dimen>
+    <dimen name="six_grids">48dp</dimen>
+
+    <!-- Semantic dimens -->
+    <dimen name="card_radius">@dimen/half_unit</dimen>
+    <dimen name="screen_padding">@dimen/two_grids</dimen>
+    <dimen name="list_row_padding">@dimen/two_grids</dimen>
+    <!-- In order to match with   -->
+    <dimen name="view_spacing">@dimen/one_and_half_grid</dimen>
+    <dimen name="button_size">@dimen/six_grids</dimen>
+</resources>
